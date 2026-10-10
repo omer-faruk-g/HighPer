@@ -28,8 +28,8 @@ TIERS = [
      "tek turda kaçırılan kenar durum olasılığı → G2/G7 doğrulaması şart"),
     (4, 6, "Sonnet high veya Opus medium; G1+G2+G7, riskliyse G3",
      "orta; Opus 5.5 medium ≈/≥ Opus 5 high [D: model-config] → önce 'aynı model, doğru effort'"),
-    (7, 10, "Opus high/xhigh + plan modu (opusplan: plan Opus, uygulama Sonnet [D]); G1–G7; çok zor/uzun işte Fable [D]",
-     "yüksek token/süre; Fable kullanım kredisi isteyebilir [D]; G7 yine istenir"),
+    (7, 10, "Opus high/xhigh + plan modu (opusplan: plan Opus, uygulama Sonnet [D]); G1–G7",
+     "yüksek token/süre; G7 yine istenir"),
 ]
 RULES = [
     "(a) Modeli GÖREV BAŞINDA seç: /model ve çoğu modelde effort değişimi önbelleği bozar; opusplan her plan geçişinde model değişimi; skill/komut frontmatter'ında farklı model o tur için model değişimidir [D: prompt-caching].",
