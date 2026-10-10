@@ -18,7 +18,7 @@ Betikler: `scripts/` (Python stdlib, ağsız, `--help` ve `--dry-run`). Ayrınt�
 6. **Gizlilik.** Oturum kayıtları (`~/.claude/projects/**/*.jsonl`) yalnız yerelde okunur; rapora yalnız sayaç ve süre girer, ham mesaj metni girmez, hiçbir yere gönderilmez. HighPer `/heapdump` veya `/insights` çalıştırmaz (heap dump tüm konuşmayı ve kimlik bilgilerini içerir — paylaşılmaz; `/insights` token harcar → yalnız onaylı öneri).
 7. **Önce ölç, sonra öner.** Bir kaldıraç ancak kullanıcının verisinde o sorun gösterildikten sonra önerilir; veri yoksa "olası, doğrulanmadı".
 8. **Dil.** Kullanıcıya Türkçe, kısa ve düz; rapor tablo, açıklama kısa. Kod/komut/anahtar adları orijinal.
-9. **Sınırlar.** Kendiliğinden commit/push yok. Canlı sunucuya (CPVPTurk) yazan komut asla çalıştırılmaz/önerilmez; yalnız yerel/test ortamı.
+9. **Sınırlar.** Kendiliğinden commit/push yok. Canlı sunucuya yazan komut asla çalıştırılmaz/önerilmez; yalnız yerel/test ortamı.
 
 ## Çalışma akışı
 1. Sorunu eksene bağla: P1 doğruluk · P2 gecikme · P3 tur verimi · P4 bağlam sağlığı · P5 güvenilirlik · P6 verim (`references/axes-and-measurement.md`).
